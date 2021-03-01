@@ -1,26 +1,28 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 2px;
+    padding: 2px 2px ;
     box-sizing: border-box;
 }
-
-header{
-    background: url("bgk-header.png");
-    height: 600px;
+header {
+    background: url("../transforms/photoshop/design-assets/bgk-header.png");
+    width: 1600px;
+    height: 670px;
     background-size: cover;
     text-align: center;
-    color: white;
+
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     padding: 40px 200px;
-}
+} 
+
 .nav-h {
-    color: cornflowerblue;
-    font-size: 30px;
-    
+    color: #AEEEEE;
+    font-size: 30px; 
+    font-family: sans-serif; 
+    margin-right: 560px;
 }
  
 .nav-menu {
@@ -34,33 +36,315 @@ color: white;
     font-size: 10px;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
+    
 }
- 
-.nav-menu li a {
+
+.nav-menu li a{
     text-decoration: none;
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    letter-spacing: 1.5px;
 }
 
 .mybtn {
-    color: blue;
-    background-color: darkcyan;
+    border: 1px solid #00BFFF;
+    text-decoration: none;
+    color:	#00BFFF;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+
 }
 
 .welcome-content {
     margin-top: 150px;
+    color: white;
 } 
 
 .description-content {
     margin-top: 40px;
+    letter-spacing: 1px;
+    color: white;
 }
 
-story-section {
-    align-content: center;
-    height: 300px;
-    width: 200px;
-    background-color: blue;
+.part-section  {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 1600px;
+
 }
+
+.image-section {
+    background: url("../transforms/photoshop/design-assets/png/logo-big.png");
+    height: 235px;
+    width: 240px;
+    background-size: cover;
+    margin-top: 50px;
+}
+     
+.my-story {
+
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.first-paragraph  {
+    margin-top: 5px;
+    padding-left: 30px;
+
+}
+
+.second-paragraph {
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.learn-btn {
+    border: 1px solid #00BFFF;
+    text-decoration: none;
+    color:	#00BFFF;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 600px;
+    margin-left: 30px;
+    position: relative;
+    top: 20px;
+}
+
+
+.video-image {
+background-image: url("../transforms/photoshop/design-assets/bgk-middle.png");  
+height: 550px;
+width: 1600px;
+}
+  
+.play-btn {
+    background-image: url("../transforms/photoshop/design-assets/png/play.png");
+    width: 103px;
+    height: 103px;
+    position: relative;
+    left: 750px;
+    top: 230px;
+    opacity: 0.6;   
+}
+.play-btn:hover {
+    opacity: 1;
+}
+
+.wat-story {
+       color: white;
+       background-size: cover;
+       margin-top: 255px;
+       text-align: center;
+       font-size: 15px;
+}
+/*--------------------------EXPERTISE SECTION-----------------------*/
+.different-expert{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.list-demo li {
+    display: inline-block;
+    border-right-color:  1px solid #000;
+}
+
+.list-demo1 li  {
+    display: inline-block;
+    border-top: 1px solid #000;
+}
+
+/*....................amazing section................................*/
+
+.amazing-team {
+    background-image: url("./photoshop/design-assets/bgk-header.png");
+    height: 570px;
+    width: 1600px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.amaz-team  {
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+.ipsum-cont  {
+    color: #D7DBDD  ;
+    margin-bottom: 5px;
+}
+.amaz-row  {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.found-ceo,
+.found-engin,
+.found-design,
+.found-market {
+    width: 200px;
+    height: 240px;
+}
+
+ 
+.found-ceo {
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-size: cover;
+ 
+    
+}
+.found-engin {
+    background-color: white;
+    margin-top: 50px;
+ 
+}
+.found-design {
+    background-color: white;
+    margin-top: 50px;
+   
+}
+
+.found-market  {
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 5px;
+    
+   
+}
+
+.am-te {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 20px;
+}
+
+.fo-te {
+    color: #909497 ;
+    font-size: 15px;
+}
+
+.last-part {
+    color: #909497 ;
+}
+
+/*-------------------------------sixth sector-----------------------------*/
+
+.new-sect  {
+    margin-top: 30px;
+    width: 1600px;
+    height: 600px;
+}
+ 
+.perso-row {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 5px;
+}
+.perso-info {
+    margin-left:40px;
+    height: 500px;
+    width: 400px;
+}
+
+
+.but-sub {
+    height: 50px; 
+    width: 140px;
+    font-size: 20px;
+    border: 1px solid #00BFFF;
+    color: #00BFFF;
+    background-color: white;
+}
+
+.perso-logo {
+    margin-left:40px;
+    height: 550px;
+    width: 650px;
+    background-color: #FFFF99;
+    padding-right: 50px;
+
+}
+
+.logo-itm1 li {
+    display: inline-block;
+    border-right-color:  1px solid #000;
+    list-style-type: none;
+    padding-right: 80px;
+    padding-bottom: 30px;
+}
+
+.logo-itm2 li {
+    display: inline-block;
+    border-right-color:  1px solid #000;
+    list-style-type: none;
+    padding-right: 80px;
+    padding-bottom: 30px;
+}
+
+.logo-itm3 li {
+    display: inline-block;
+    border-right-color:  1px solid #000;
+    list-style-type: none;
+    padding-right: 80px;
+    padding-bottom: 30px;
+}
+
+.logo-itm4 li {
+    display: inline-block;
+    border-right-color:  1px solid #000;
+    list-style-type: none;
+    padding-right: 80px;
+    padding-bottom: 30px;
+}
+
+.logo-itm5 li {
+    display: inline-block;
+    border-right-color:  1px solid #000;
+    list-style-type: none;
+    padding-right: 80px;
+}
+
+.txt-lbl {
+    height: 50px; 
+    width: 400px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-color: #D0D0D0;
+}
+
+/*---------------------------------------------foooter------------------------------------*/
+.last-footer {
+    width: 1600px;
+    height: 400px;
+}
+
+
+
+
+
+   
+
+
+ 
+
+
+
 
 
