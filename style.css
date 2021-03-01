@@ -224,25 +224,13 @@ width: 1600px;
     background-color: white;
     margin-top: 50px;
     margin-left: 5px;
+     
+}
+.found.col {
+    width: 100px;
+    height: 300px;
     
-   
 }
-
-.am-te {
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    letter-spacing: 2px;
-    padding: 10px 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-right: 20px;
-}
-
-.fo-te {
-    color: #909497 ;
-    font-size: 15px;
-}
-
 .last-part {
     color: #909497 ;
 }
