@@ -19,12 +19,15 @@ nav {
 } 
 
 .nav-h {
-    color: #AEEEEE;
+    color: cadetblue;
     font-size: 30px; 
     font-family: sans-serif; 
     margin-right: 560px;
 }
- 
+.home-btn {
+    color: currentColor;
+    background-color: cadetblue;
+}
 .nav-menu {
 list-style: none;
 color: white;
