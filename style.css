@@ -12,6 +12,9 @@ header {
 
 }
 
+
+
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -36,6 +39,8 @@ color: white;
 
 .nav-menu li {
     display: inline-block;
+    justify-content: space-between;
+    margin: auto;
     font-size: 10px;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
@@ -68,9 +73,13 @@ color: white;
 } 
 
 .description-content {
-    margin-top: 40px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 850px;
     letter-spacing: 1px;
     color: white;
+
 }
 
 .part-section  {
@@ -90,21 +99,16 @@ color: white;
 }
      
 .my-story {
-
     margin-top: 30px;
     margin-left: 30px;
 }
 
 
-.first-paragraph  {
+.whole-paragraph  {
     margin-top: 5px;
     padding-left: 30px;
+    font-size: 13px;
 
-}
-
-.second-paragraph {
-    margin-top: 30px;
-    padding-left: 30px;
 }
 .learn-btn {
     border: 1px solid #00BFFF;
@@ -196,43 +200,47 @@ width: 1600px;
 .found-engin,
 .found-design,
 .found-market {
-    width: 200px;
-    height: 240px;
+    width: 180px;
+    height: 180px;
+    
+
 }
 
  
 .found-ceo {
     background-color: white;
-    margin-top: 50px;
-    margin-left: 20px;
-    background-size: cover;
- 
+    margin-top: 40px;
     
 }
 .found-engin {
     background-color: white;
-    margin-top: 50px;
+    margin-top: 40px;
  
 }
 .found-design {
     background-color: white;
-    margin-top: 50px;
+    margin-top: 40px;
    
 }
 
 .found-market  {
     background-color: white;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 5px;
+    border-color: 2px teal;
+    
+    
      
 }
 .found.col {
-    width: 100px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+  
+    
     
 }
 .last-part {
-    color: #909497 ;
+    color: #909497;
 }
 
 /*-------------------------------sixth sector-----------------------------*/
