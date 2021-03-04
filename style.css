@@ -182,7 +182,8 @@ button:hover {
 
 #oliver-expertise-team {
   margin: 0;
-  font-family: "Helvetica", sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 100;
   color: black;
   background-color: white;
   font-size: 16px;
