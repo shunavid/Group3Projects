@@ -1,7 +1,12 @@
 * {
-  margin: 0px;
-  padding: 0px 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 100;
 }
 
 header {
@@ -344,7 +349,7 @@ h4 {
 }
 
 /*-------------------------------sixth sector-----------------------------*/
-
+/*
 .new-sect {
   margin-top: 30px;
   width: 1600px;
@@ -425,15 +430,18 @@ h4 {
   margin-bottom: 15px;
   border-color: #d0d0d0;
 }
-
+*/
 /*---------------------------------------------foooter------------------------------------*/
+/*
 .last-footer {
   width: 1600px;
   height: 400px;
 }
+*/
 
 /* foooooter               section*/
 
+/*
 .footer-container {
   height: 35vh;
   display: flex;
@@ -631,4 +639,252 @@ h4 {
 
 .footer-copyright {
   flex-basis: 27%;
+}
+*/
+
+/*-------------------------SECTION 6: MESSAGE FORM & CLIENTS-----------------------------------------------*/
+
+#message-clients {
+  padding: 70px 100px;
+}
+
+.message-clients {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+}
+
+/* MESSAGE FORM*/
+
+.message {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  max-width: auto;
+}
+
+.message form {
+  min-width: 520px;
+  border: #f2f2f2;
+}
+
+input {
+  width: 350px;
+  height: 30px;
+}
+
+textarea {
+  width: 350px;
+  height: 120px;
+}
+
+.message button {
+  border: 1px solid #08c9c2;
+  padding: 10px;
+  width: auto;
+  background-color: transparent;
+  color: #08c9c2;
+}
+
+/*CLIENTS PART*/
+
+.grid-container {
+  display: flex;
+}
+
+.grid-container img {
+  max-width: 140px;
+  max-height: 300px;
+  display: block;
+  margin-top: 30px;
+}
+
+.logo-column1,
+.logo-column2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 80px;
+}
+
+.Zara {
+  grid-area: Zara;
+}
+
+.Mango {
+  grid-area: Mango;
+}
+
+.Barneys-NewYork {
+  grid-area: Barneys-NewYork;
+}
+
+.Gucci {
+  grid-area: Gucci;
+}
+
+.Calvin-Klein {
+  grid-area: Calvin-Klein;
+}
+
+.Nike {
+  grid-area: Nike;
+}
+
+.Converse {
+  grid-area: Converse;
+}
+
+.Puma {
+  grid-area: Puma;
+}
+
+.Levis {
+  grid-area: Levis;
+}
+
+.Billabong {
+  grid-area: Billabong;
+}
+
+/*--------------------SECTION 7: FOOTER FOOTER FOOTER---------------------------------*/
+.entire-footer {
+  background-image: url("./img/bgk-footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 350px;
+  max-width: 100vw;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #08c9c2;
+}
+
+.first-footer-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 50px;
+  width: 200px;
+}
+
+.second-footer-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 50px;
+}
+
+.address {
+  display: flex;
+}
+
+.address img {
+  height: 20px;
+  margin: 5px;
+}
+
+.phone {
+  display: flex;
+}
+
+.phone img {
+  height: 20px;
+  margin: 5px;
+}
+
+.third-footer-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 50px;
+}
+
+.stay-in-touch {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#email {
+  border: 1px solid white;
+  padding: 10px;
+  width: auto;
+  background-color: transparent;
+}
+
+.stay-in-touch img {
+  background-color: #e6e6e6;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+}
+
+.nav-menu-footer {
+  display: inline;
+  list-style-type: none;
+  color: white;
+  margin: 20px 0;
+}
+
+.help-copyright {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 50px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.help {
+  display: inline-flex;
+  color: white;
+}
+
+.help a {
+  padding-right: 30px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: blue;
+}
+
+.copyright {
+  display: inline-flex;
+  color: white;
 }
